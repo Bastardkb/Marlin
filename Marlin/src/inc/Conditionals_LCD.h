@@ -227,9 +227,9 @@
   #define STD_ENCODER_STEPS_PER_MENU_ITEM 1
   #define LCD_WIDTH                   20    // 20 or 24 chars in line
   #define LCD_HEIGHT                  10    // Character lines
-  #define LCD_CONTRAST_MIN            127
+  #define LCD_CONTRAST_MIN            252
   #define LCD_CONTRAST_MAX            255
-  #define DEFAULT_LCD_CONTRAST        250
+  #define DEFAULT_LCD_CONTRAST        254
   #define CONVERT_TO_EXT_ASCII        // Use extended 128-255 symbols from ASCII table.
                                       // At this time present conversion only for cyrillic - bg, ru and uk languages.
                                       // First 7 ASCII symbols in panel font must be replaced with Marlin's special symbols.
